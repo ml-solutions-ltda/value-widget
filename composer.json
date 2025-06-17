@@ -1,5 +1,5 @@
 {
-    "name": "digital-creative/value-widget",
+    "name": "mlsolutions/value-widget",
     "description": "A basic widget for laravel nova-dashboard.",
     "keywords": [
         "laravel",
@@ -10,22 +10,26 @@
     "authors": [
         {
             "name": "Rafael Milewski"
+        },
+        {
+            "name": "ML Solution",
+            "email": "ti@mlsolutions.net.br"
         }
     ],
     "license": "MIT",
     "require": {
-        "php": ">=8.1",
-        "laravel/nova": "^4.0"
+        "php": ">=8.3",
+        "laravel/nova": "^4.0|^5.0"
     },
     "autoload": {
         "psr-4": {
-            "DigitalCreative\\ValueWidget\\": "src/"
+            "MlSolutions\\ValueWidget\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "DigitalCreative\\ValueWidget\\ValueWidgetServiceProvider"
+                "MlSolutions\\ValueWidget\\ValueWidgetServiceProvider"
             ]
         }
     },

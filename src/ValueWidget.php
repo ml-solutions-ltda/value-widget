@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace DigitalCreative\ValueWidget;
+namespace MlSolutions\ValueWidget;
 
-use DigitalCreative\NovaDashboard\Card\Widget;
+use MlSolutions\NovaDashboard\Card\Widget;
 
 abstract class ValueWidget extends Widget
 {
